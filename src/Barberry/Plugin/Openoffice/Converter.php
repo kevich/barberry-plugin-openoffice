@@ -35,7 +35,7 @@ class Converter implements Plugin\InterfaceConverter
         $destination = $source . '.' . $this->targetContentType->standardExtension();
         file_put_contents($source, $bin);
         $out = exec(
-            'python3 ' . __DIR__ . '/../../../../vendor/kevich/pyodconverter/DocumentConverter3.py ' . "$source $destination"
+            'python3 ' . __DIR__ . '/../../../../externals/pyodconverter/DocumentConverter3.py ' . "$source $destination"
         );
         unlink($source);
 

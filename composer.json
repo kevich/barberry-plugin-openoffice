@@ -1,16 +1,9 @@
 {
     "name": "barberry/plugin-openoffice",
     "type": "barberry-plugin",
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/kevich/pyodconverter.git"
-        }
-    ],
     "require": {
         "barberry/plugin-installer": "*",
-        "barberry/interfaces": "*",
-        "kevich/pyodconverter": "dev-master"
+        "barberry/interfaces": "*"
     },
     "minimum-stability": "dev",
     "authors": [

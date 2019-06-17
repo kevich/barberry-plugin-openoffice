@@ -1,0 +1,10 @@
+{
+    "name": "kevich/pyodconverter",
+    "authors": [
+        {
+            "name": "Andrew Kevich",
+            "email": "kevich@xiag.ch"
+        }
+    ],
+    "require": {}
+}
